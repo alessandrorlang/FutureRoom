@@ -33,6 +33,40 @@ class FutureRoomController extends Controller
         return view('roomDesigns', compact('bedroom', 'livingroom', 'bathroom', 'kitchen'));
     }
 
+    public function getBedroom()
+    {
+        $bedroom = room_lists::whereHas('room_categories', function ($id) {
+            $id->where('category_name', '=', 'Bedroom');
+        })->get();
+
+        return view('/categories/bedroom', compact('bedroom'));
+    }
+
+    public function getLivingRoom()
+    {
+        $livingroom = room_lists::whereHas('room_categories', function ($id) {
+            $id->where('category_name', '=', 'Living Room');
+        })->get();
+
+        return view('/categories/livingroom', compact('livingroom'));
+    }
+    public function getBathroom()
+    {
+        $bathroom = room_lists::whereHas('room_categories', function ($id) {
+            $id->where('category_name', '=', 'Bathroom');
+        })->get();
+
+        return view('/categories/bathroom', compact('bathroom'));
+    }
+    public function getKitchen()
+    {
+        $kitchen = room_lists::whereHas('room_categories', function ($id) {
+            $id->where('category_name', '=', 'Kitchen');
+        })->get();
+
+        return view('/categories/kitchen', compact('kitchen'));
+    }
+
     public function getRoomCategories(room_categories $room_categories)
     {
         return view('roomDesigns', compact('room_categories'));

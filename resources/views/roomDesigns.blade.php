@@ -8,7 +8,7 @@
     <div class="d-flex justify-content-between">
         <h1 class="room-category"> Bedroom </h1>
             <div class="lihat-semua"> 
-                {{-- <a href="{{ url('/roomCategories/'.$room_categories->category_) }}" class="text-blue" style="text-decoration: none; font-size: 20px; font-weight: 600;">See more </a> --}}
+                <a href="{{ url('/roomCategories/bedRoom') }}" class="text-blue" style="text-decoration: none; font-size: 20px; font-weight: 600;">See more </a>
                 {{-- <a href="{{ url('/roomCategories/'.$room_lists->room_categoryID) }}" 
                     class="color-primary font-weight-normal"> {{ $room_lists->room_categories->category_name }}</a>  --}}
             </div>
@@ -34,7 +34,7 @@
     <div class="d-flex justify-content-between">
         <h1 class="room-category"> Living Room </h1>
             <div class="lihat-semua"> 
-                <a href="{{ url('/RoomCategory/LivingRoom') }}" class="text-blue" style="text-decoration: none; font-size: 20px; font-weight: 600;">See more </a> 
+                <a href="{{ url('/roomCategories/LivingRoom') }}" class="text-blue" style="text-decoration: none; font-size: 20px; font-weight: 600;">See more </a> 
             </div>
         </div>
         <div class="col">
@@ -58,7 +58,7 @@
     <div class="d-flex justify-content-between">
         <h1 class="room-category"> Bathroom </h1>
             <div class="lihat-semua"> 
-                <a href="{{ url('/RoomCategory/Bathroom') }}" class="text-blue" style="text-decoration: none; font-size: 20px; font-weight: 600;">See more </a> 
+                <a href="{{ url('/roomCategories/Bathroom') }}" class="text-blue" style="text-decoration: none; font-size: 20px; font-weight: 600;">See more </a> 
             </div>
         </div>
         <div class="col">
@@ -82,7 +82,7 @@
     <div class="d-flex justify-content-between">
         <h1 class="room-category"> Kitchen </h1>
             <div class="lihat-semua"> 
-                <a href="{{ url('/RoomCategory/Kitchen') }}" class="text-blue" style="text-decoration: none; font-size: 20px; font-weight: 600;">See more </a> 
+                <a href="{{ url('/roomCategories/Kitchen') }}" class="text-blue" style="text-decoration: none; font-size: 20px; font-weight: 600;">See more </a> 
             </div>
         </div>
         <div class="col">

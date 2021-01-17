@@ -12,7 +12,7 @@
                 <img src= {{ $showRoom -> photo }} class="card-img-top" height="450px" alt="...">
                 <div class="card-body">
                 <h5 class="card-title">{{ $showRoom -> title }}</h5>
-                <a href="{{  url('/RoomCategory/'.$showRoom->room_categoryID) }}" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Lihat Film</a>
+                <a href="{{  url('/RoomCategory/'.$showRoom->room_categoryID) }}" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Lihat Ruangan</a>
                 </div>
             </div>
           </div>
