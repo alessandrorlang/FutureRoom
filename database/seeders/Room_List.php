@@ -40,9 +40,16 @@ class Room_List extends Seeder
             [
                 'room_categoryID' => 1,
                 'room_name' => 'Bedroom 4',
-                'photo' => 'images\roomcategories\bedroom\bedroom-4.jpg',
+                'photo' => 'images\roomcategories\bedroom\bedroom-4.jpeg',
                 'description' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nec fringilla metus, quis volutpat magna. Pellentesque imperdiet sodales orci, at imperdiet nulla accumsan et. Maecenas id molestie augue. Nunc laoreet mauris leo, vitae dignissim lectus commodo quis. Nunc massa leo, efficitur pretium velit et, tempor blandit eros. Sed condimentum accumsan posuere.',
                 'designer' => 'Dennis Luko'
+            ],
+            [
+                'room_categoryID' => 1,
+                'room_name' => 'Bedroom 5',
+                'photo' => 'images\roomcategories\bedroom\bedroom-5.jpg',
+                'description' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nec fringilla metus, quis volutpat magna. Pellentesque imperdiet sodales orci, at imperdiet nulla accumsan et. Maecenas id molestie augue. Nunc laoreet mauris leo, vitae dignissim lectus commodo quis. Nunc massa leo, efficitur pretium velit et, tempor blandit eros. Sed condimentum accumsan posuere.',
+                'designer' => 'Kevin Meister'
             ],
             [
                 'room_categoryID' => 2,
@@ -71,6 +78,20 @@ class Room_List extends Seeder
                 'photo' => 'images\roomcategories\livingroom\livingroom-4.jpg',
                 'description' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nec fringilla metus, quis volutpat magna. Pellentesque imperdiet sodales orci, at imperdiet nulla accumsan et. Maecenas id molestie augue. Nunc laoreet mauris leo, vitae dignissim lectus commodo quis. Nunc massa leo, efficitur pretium velit et, tempor blandit eros. Sed condimentum accumsan posuere.',
                 'designer' => 'Agatha Lukman'
+            ],
+            [
+                'room_categoryID' => 2,
+                'room_name' => 'Living Room 5',
+                'photo' => 'images\roomcategories\livingroom\livingroom-5.jpg',
+                'description' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nec fringilla metus, quis volutpat magna. Pellentesque imperdiet sodales orci, at imperdiet nulla accumsan et. Maecenas id molestie augue. Nunc laoreet mauris leo, vitae dignissim lectus commodo quis. Nunc massa leo, efficitur pretium velit et, tempor blandit eros. Sed condimentum accumsan posuere.',
+                'designer' => 'Dennis Wijrman'
+            ],
+            [
+                'room_categoryID' => 2,
+                'room_name' => 'Living Room 6',
+                'photo' => 'images\roomcategories\livingroom\livingroom-6.jpg',
+                'description' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nec fringilla metus, quis volutpat magna. Pellentesque imperdiet sodales orci, at imperdiet nulla accumsan et. Maecenas id molestie augue. Nunc laoreet mauris leo, vitae dignissim lectus commodo quis. Nunc massa leo, efficitur pretium velit et, tempor blandit eros. Sed condimentum accumsan posuere.',
+                'designer' => 'Timo Mendy'
             ],
             [
                 'room_categoryID' => 3,

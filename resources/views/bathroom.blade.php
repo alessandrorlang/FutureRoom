@@ -8,9 +8,7 @@
 <div class="container">
     <div class="d-flex justify-content-between">
         <h1 class="room-category"> Bathroom </h1>
-            <div class="lihat-semua"> 
-                <a href="{{ url('/roomCategories/Bathroom') }}" class="text-blue" style="text-decoration: none; font-size: 20px; font-weight: 600;">See more </a> 
-            </div>
+        <h4> <span style="font-weight: 700"> showing total of: </span> {{$total}} bathrooms </h4>
         </div>
         <div class="col">
             @foreach ($bathroom as $bathDesign)

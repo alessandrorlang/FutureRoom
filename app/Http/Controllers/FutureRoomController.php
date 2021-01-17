@@ -39,7 +39,11 @@ class FutureRoomController extends Controller
             $id->where('category_name', '=', 'Bedroom');
         })->get();
 
-        return view('/categories/bedroom', compact('bedroom'));
+        $total = room_lists::whereHas('room_categories', function ($id) {
+            $id->where('category_name', '=', 'Bedroom');
+        })->count();
+
+        return view('bedroom', compact('bedroom', 'total'));
     }
 
     public function getLivingRoom()
@@ -48,7 +52,11 @@ class FutureRoomController extends Controller
             $id->where('category_name', '=', 'Living Room');
         })->get();
 
-        return view('/categories/livingroom', compact('livingroom'));
+        $total = room_lists::whereHas('room_categories', function ($id) {
+            $id->where('category_name', '=', 'Living Room');
+        })->count();
+
+        return view('livingroom', compact('livingroom', 'total'));
     }
     public function getBathroom()
     {
@@ -56,7 +64,11 @@ class FutureRoomController extends Controller
             $id->where('category_name', '=', 'Bathroom');
         })->get();
 
-        return view('/categories/bathroom', compact('bathroom'));
+        $total = room_lists::whereHas('room_categories', function ($id) {
+            $id->where('category_name', '=', 'Bathroom');
+        })->count();
+
+        return view('bathroom', compact('bathroom', 'total'));
     }
     public function getKitchen()
     {
@@ -64,7 +76,11 @@ class FutureRoomController extends Controller
             $id->where('category_name', '=', 'Kitchen');
         })->get();
 
-        return view('/categories/kitchen', compact('kitchen'));
+        $total = room_lists::whereHas('room_categories', function ($id) {
+            $id->where('category_name', '=', 'Kitchen');
+        })->count();
+
+        return view('kitchen', compact('kitchen', 'total'));
     }
 
     public function getRoomCategories(room_categories $room_categories)

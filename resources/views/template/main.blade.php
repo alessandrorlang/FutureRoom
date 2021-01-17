@@ -167,10 +167,10 @@
                 <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                      Room Designs </a>
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <li><a class="dropdown-item" href="{{ url('/categories/bedroom') }}">Bedroom</a></li>
-                    <li><a class="dropdown-item" href="{{ url('/categories/livingroom') }}">Living Room</a></li>
-                    <li><a class="dropdown-item" href="{{ url('/categories/bathroom') }}">Bathroom</a></li>
-                    <li><a class="dropdown-item" href="{{ url('/categories/kitchen') }}">Kitchen</a></li>
+                    <li><a class="dropdown-item" href="{{ url('/bedroom') }}">Bedroom</a></li>
+                    <li><a class="dropdown-item" href="{{ url('/livingroom') }}">Living Room</a></li>
+                    <li><a class="dropdown-item" href="{{ url('/bathroom') }}">Bathroom</a></li>
+                    <li><a class="dropdown-item" href="{{ url('/kitchen') }}">Kitchen</a></li>
                     <li><hr class="dropdown-divider"></li>
                     <li><a class="dropdown-item" href="{{ url('/roomDesigns') }}">See all categories</a></li>
                   </ul>

@@ -12,7 +12,7 @@ Route::view('/aboutUs', 'aboutUs');
 
 
 
-Route::get('/categories/bedroom', [FutureRoomController::class, 'getBedroom']);
-Route::get('/categories/bathroom', [FutureRoomController::class, 'getBathroom']);
-Route::get('/categories/kitchen', [FutureRoomController::class, 'getKitchen']);
-Route::get('/categories/livingroom', [FutureRoomController::class, 'getLivingRoom']);
+Route::get('/bedroom', [FutureRoomController::class, 'getBedroom']);
+Route::get('/bathroom', [FutureRoomController::class, 'getBathroom']);
+Route::get('/kitchen', [FutureRoomController::class, 'getKitchen']);
+Route::get('/livingroom', [FutureRoomController::class, 'getLivingRoom']);

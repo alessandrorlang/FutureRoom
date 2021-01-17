@@ -7,7 +7,8 @@
 <div class="container">
     <div class="d-flex justify-content-between">
         <h1 class="room-category"> Bedroom </h1>
-        </div>
+        <h4> <span style="font-weight: 700"> showing total of: </span> {{$total}} bedrooms </h4>
+    </div>
         <div class="col">
             @foreach ($bedroom as $bedDesign)
             <div class="card mb-5">
